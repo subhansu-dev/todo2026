@@ -1,0 +1,8 @@
+{
+  "name": "Daily Tasks & Review",
+  "description": "A modern daily todo list application with previous days task review, smart Gemini multi-turn chatbot assistant, and high-resolution task image generation.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

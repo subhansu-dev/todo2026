@@ -1,0 +1,8 @@
+# Netlify redirect rules
+# Proxy API routes to Netlify Functions
+/api/chat            /.netlify/functions/chat          200
+/api/generate-image  /.netlify/functions/generate-image 200
+/api/health          /.netlify/functions/health        200
+
+# Single-Page Application (SPA) client-side routing fallback
+/*                   /index.html                       200
